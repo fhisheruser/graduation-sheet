@@ -1,0 +1,65 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%; /* Adjust the width as needed */
+  margin-top: 20px; /* Add some margin at the top if desired */
+}
+
+th,
+td {
+  border: 1px solid #ffffff;
+  text-align: left;
+  padding: 14px;
+  font-size: 32px;
+  text-align: center;
+}
+
+th {
+  background-color: rgb(115, 2, 143);
+  color: #ffffff;
+ 
+}
+/* TableRow.css */
+
+.table-row {
+  background-color: purple;
+  color: white; /* Text color for better visibility on purple background */
+}
+
+.table-row td {
+  padding: 8px;
+  text-align: center;
+}
+
+.total-row {
+  background-color: purple;
+  font-weight: bold;
+  color: white;
+}
+
+
+td {
+  background-color: rgb(225, 177, 247);
+  text-align: center;
+
+}
+
+form {
+  display: flex;
+  gap: 10px;
+}
+
+form td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form * {
+  font-size: 28px;
+}
